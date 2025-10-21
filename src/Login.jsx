@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Rivews from "./componens/Rivews";
+import Header from "./componens/Header"
 
 export default function () {
   const [name, setName] = useState("");
@@ -27,6 +28,7 @@ export default function () {
 
   return (
     <>
+    <Header/>
       <div id="login">
         <h1 className="iconsign">sigin-in:</h1>
         <h1>

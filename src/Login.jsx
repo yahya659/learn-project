@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Rivews from "./componens/Rivews";
-import Header from "./componens/Header"
+import Header from "./componens/Header";
 
 export default function () {
   const [name, setName] = useState("");
@@ -76,8 +76,6 @@ export default function () {
       <br></br>
       <br></br>
       <br></br>
-      <Rivews />
-      <Rivews />
       <Rivews />
     </>
   );

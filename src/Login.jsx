@@ -28,7 +28,6 @@ export default function () {
 
   return (
     <>
-    <Header/>
       <div id="login">
         <h1 className="iconsign">sigin-in:</h1>
         <h1>
@@ -77,6 +76,8 @@ export default function () {
       <br></br>
       <br></br>
       <br></br>
+      <Rivews />
+      <Rivews />
       <Rivews />
     </>
   );
